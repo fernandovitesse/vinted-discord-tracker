@@ -1,0 +1,40 @@
+{
+    "vinted": {
+      "access_token": "VOTRE_TOKEN_VINTED_ICI",
+      "refresh_token": "VOTRE_REFRESH_TOKEN_ICI",
+      "user_id": null,
+      "base_url": "https://www.vinted.fr/api/v2"
+    },
+    "discord": {
+      "webhook_url": "VOTRE_WEBHOOK_DISCORD_ICI",
+      "username": "Vinted Tracker",
+      "avatar_url": "https://images.vinted.net/assets/logos/vinted-logo-square-f35d3d7e.png",
+      "color_scheme": {
+        "success": 2067276,
+        "warning": 15844367,
+        "error": 15158332,
+        "info": 3447003
+      }
+    },
+    "tracking": {
+      "check_interval_seconds": 3600,
+      "max_retries": 3,
+      "timeout_seconds": 15,
+      "cache_duration_seconds": 300,
+      "rate_limit_delay": 1.0
+    },
+    "logging": {
+      "level": "INFO",
+      "file": "logs/app.log",
+      "max_size_mb": 10,
+      "backup_count": 5,
+      "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+    },
+    "features": {
+      "send_summary": true,
+      "include_images": true,
+      "include_seller_info": true,
+      "save_local_backup": true,
+      "detect_status_changes": false
+    }
+  }

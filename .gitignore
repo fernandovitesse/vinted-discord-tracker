@@ -1,0 +1,136 @@
+# ===============================================
+# CONFIGURATION ET SECRETS (IMPORTANT!)
+# ===============================================
+config.json
+.env
+*.key
+*.pem
+tokens.txt
+
+# ===============================================
+# DONNÉES ET CACHE
+# ===============================================
+data/cache/*
+!data/cache/.gitkeep
+data/*.json
+!data/.gitkeep
+
+logs/*.log
+!logs/.gitkeep
+
+# Résultats et exports
+discord_results/
+vinted_tracking_results/
+tracking_results/
+exports/
+backups/
+
+# ===============================================
+# PYTHON
+# ===============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# ===============================================
+# ENVIRONNEMENTS VIRTUELS
+# ===============================================
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# ===============================================
+# IDE ET ÉDITEURS
+# ===============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ===============================================
+# SYSTÈME D'EXPLOITATION
+# ===============================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+
+# ===============================================
+# JUPYTER NOTEBOOKS
+# ===============================================
+.ipynb_checkpoints
+
+# ===============================================
+# AUTRES
+# ===============================================
+# Fichiers temporaires
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+
+# Documentation générée
+docs/_build/

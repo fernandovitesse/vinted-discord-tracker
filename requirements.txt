@@ -1,0 +1,25 @@
+# Core dependencies
+cloudscraper==1.2.71
+requests==2.31.0
+python-dotenv==1.0.0
+
+# Discord integration
+discord-webhook==1.3.0
+
+# Data processing
+pandas==2.1.0
+
+# Scheduling (for future automation)
+schedule==1.2.0
+
+# Logging and monitoring
+colorlog==6.7.0
+
+# Development and testing
+pytest==7.4.0
+pytest-cov==4.1.0
+black==23.7.0
+flake8==6.0.0
+
+# Security
+cryptography==41.0.3
