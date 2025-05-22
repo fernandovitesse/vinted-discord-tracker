@@ -23,7 +23,7 @@ cd vinted-discord-tracker
 pip install -r requirements.txt
 cp config.example.json config.json
 # Configurez vos tokens dans config.json
-python src/main.py
+python src/vinted_tracker.py
 ```
 
 ## ⚙️ Configuration
